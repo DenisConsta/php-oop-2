@@ -14,6 +14,10 @@ class Category{
     $this->name = $_name;    
     $this->icon = $_icon;    
   }
+
+  public function getCatName(){
+    return $this->name;
+  }
 }
 
 ?>

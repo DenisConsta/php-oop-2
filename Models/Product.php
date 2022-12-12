@@ -29,6 +29,17 @@ class Product{
     $this->is_available = $_is_available;
     $this->image = $_image;
   }
+
+  public function getName(){
+    return $this->name;
+  }
+  public function getBrand(){
+    return $this->brand;
+  }
+  public function getCategory(){
+    return $this->category->getCatName();
+  }
+
 }
 
 ?>
